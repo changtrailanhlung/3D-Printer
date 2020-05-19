@@ -28,8 +28,13 @@ Components include (Firmware MKS Gen L):
 | 25 | Sensor lj12a3-4-z/ex | 1 |
 | 26 | 12V 5015 Blow Fan | 1 |
 | 27 | LCD 20x4 for 3d printer | 1 |
-| 28 | 3030 extrusionfor frame | optional |
+| 28 | 3030 extrusion for frame | optional |
 | 29 | 2020 extrusion for headbed | optional |
-| 30 | MKS Smoother 3D | 1 | New Update |
+| 30 | M3, M5, M6 head screws with button | types | Use a lot M5 (10mm) |
+| 31 | M3, M5, M6 head screws with button | types | Use a lot M5 (10mm) |
+| 32 | M3, M5, M6 T Hammer Nuts for 3030 extrusion and 2020 extrusion | After | 
+| 33 | L type bracket for 3030 extrusion | 16 | 
+| 34 | 3030 corner brackets | 20 | 
+| 35 | MKS Smoother 3D | 1 | New Update |
 
 Update 19/05/2020
