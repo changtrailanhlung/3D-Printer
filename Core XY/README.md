@@ -34,7 +34,8 @@ Components include (Firmware MKS Gen L):
 | 31 | M3, M5, M6 head screws with button | types | Use a lot M5 (10mm) |
 | 32 | M3, M5, M6 T Hammer Nuts for 3030 extrusion and 2020 extrusion | After | 
 | 33 | L type bracket for 3030 extrusion | 16 | 
-| 34 | 3030 corner brackets | 20 | 
-| 35 | MKS Smoother 3D | 1 | New Update |
+| 34 | L type bracket for 2020 extrusion | 4 |
+| 35 | 3030 corner brackets | 20 | 
+| 36 | MKS Smoother 3D | 1 | New Update |
 
 Update 19/05/2020
