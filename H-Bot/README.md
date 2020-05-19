@@ -1,4 +1,4 @@
-# 3D-Printer
+# H-Bot
 Components include (Firmware MKS Gen L):           
 | ID | Name | Amout | Note |
 | :---: | :--- | :---: | :---: |
