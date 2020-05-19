@@ -26,6 +26,10 @@ Components include (Firmware MKS Gen L):
 | 23 | Kit Hypercube | 1 |
 | 24 | AC 30A 250V socket with fuse and switch + Power Cord| 1 |
 | 25 | Sensor lj12a3-4-z/ex | 1 |
-| 26 | MKS Smoother 3D | 1 | New Update |
+| 26 | 12V 5015 Blow Fan | 1 |
+| 27 | LCD 20x4 for 3d printer | 1 |
+| 28 | 3030 extrusionfor frame | optional |
+| 29 | 2020 extrusion for headbed | optional |
+| 30 | MKS Smoother 3D | 1 | New Update |
 
-Update 19/04/2020
+Update 19/05/2020
