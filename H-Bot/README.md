@@ -30,13 +30,3 @@ Components include (Firmware MKS Gen L):
 | 26 | Sensor Filament | 1 | New Update |
 
 Update 15/04/2020: I'm test board Ramps1.4, MKS Gen L v1.0 and MKS SGenL 32 bit
-
-*I see MKS SGenL 32 bit activation best. Machine work vey smooth and fast.*
-
-<img src="https://github.com/lhnguyen99/3D-Printer/blob/master/img/04_15_2020(1).JPG">
-
-<img src="https://github.com/lhnguyen99/3D-Printer/blob/master/img/04_15_2020(2).JPG">
-
-<img src="https://github.com/lhnguyen99/3D-Printer/blob/master/img/04_15_2020(3).JPG">
-
-<img src="https://github.com/lhnguyen99/3D-Printer/blob/master/img/04_15_2020(4).JPG">
