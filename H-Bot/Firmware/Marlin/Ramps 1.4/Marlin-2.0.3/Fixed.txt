@@ -1,0 +1,72 @@
+#define BAUDRATE 250000
+
+#ifndef MOTHERBOARD
+  #define MOTHERBOARD BOARD_RAMPS_14_EFB
+#endif
+
+#define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
+
+#define TEMP_SENSOR_0 5
+#define TEMP_SENSOR_1 0
+#define TEMP_SENSOR_2 0
+#define TEMP_SENSOR_3 0
+#define TEMP_SENSOR_4 0
+#define TEMP_SENSOR_5 0
+#define TEMP_SENSOR_6 0
+#define TEMP_SENSOR_7 0
+#define TEMP_SENSOR_BED 11
+#define TEMP_SENSOR_PROBE 0
+#define TEMP_SENSOR_CHAMBER 0
+
+#define THERMAL_PROTECTION_HOTENDS // Enable thermal protection for all extruders
+#define THERMAL_PROTECTION_BED     // Enable thermal protection for the heated bed
+#define THERMAL_PROTECTION_CHAMBER // Enable thermal protection for the heated chamber
+
+#define X_DRIVER_TYPE  A4988
+#define Y_DRIVER_TYPE  A4988
+#define Z_DRIVER_TYPE  A4988
+#define E0_DRIVER_TYPE A4988
+
+#define SDSUPPORT
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define ST7920_DELAY_1 DELAY_NS(200) // After CLK LOW
+#define ST7920_DELAY_2 DELAY_NS(400) // After DAT
+#define ST7920_DELAY_3 DELAY_NS(200) // After CLK HIGH
+
+in Configuration.h
+-------------------------------------------------
+#define SD_FIRMWARE_UPDATE
+
+#define DOGM_SD_PERCENT
+
+#define STATUS_HOTEND_INVERTED      // Show solid nozzle bitmaps when heating (Requires STATUS_HOTEND_ANIM)
+#define STATUS_HOTEND_ANIM          // Use a second bitmap to indicate hotend heating
+#define STATUS_BED_ANIM             // Use a second bitmap to indicate bed heating
+#define STATUS_CHAMBER_ANIM         // Use a second bitmap to indicate chamber heating
+#define STATUS_ALT_BED_BITMAP     // Use the alternative bed bitmap
+#define BOOT_MARLIN_LOGO_SMALL    // Show a smaller Marlin logo on the Boot Screen (saving 399 bytes of flash)
+#define BOOT_MARLIN_LOGO_ANIMATED // Animated Marlin logo. Costs ~‭3260 (or ~940) bytes of PROGMEM.
+
+#define MARLIN_BRICKOUT
+#define MARLIN_INVADERS
+#define MARLIN_SNAKE
+
+#define SCROLL_LONG_FILENAMES
+#define SDCARD_CONNECTION LCD
+
+#define POWER_LOSS_RECOVERY // ..........Enable
+#if ENABLED(POWER_LOSS_RECOVERY)
+  //#define POWER_LOSS_PIN   44     // Pin to detect power loss
+  //#define POWER_LOSS_STATE HIGH   // State of pin indicating power loss
+
+in Configuration_adv.h
+-------------------------------------------------
+#define MESH_BED_LEVELING
+#define LCD_BED_LEVELING
+#define MESH_EDIT_MENU   
+
+in Configuration_adv.h
+-------------------------------------------------
+#define SAVE_EACH_CMD_MODE
+
+in power_loss_recovery.h
